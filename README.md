@@ -1,3 +1,48 @@
+# Scarlett's Notes
+
+## To embed Google Photo objects in index.html see:
+### To capture all google photos in an ALBUM see the website:  https://www.publicalbum.org/blog/embedding-google-photos-albums
+  
+  nto a website?
+How can I do embed my shared album from Google Photos and make preview of images on my website? How can I do that simply, without having to copy pictures or complicated search to individual image links? Here I will introduce my solution, which you can also try.
+
+
+Tool for embeding of Google Photos album.
+
+Three steps how to do it.
+
+When I wanted to present my photos public on the web, I found out that there was no easy way to do it, in fact, there was no reasonable way.
+
+This led me to find a way to solve it. The result is the first version of the photo viewer. This is a compilation of Google Photos image public links and javascript component “Player” for convenient viewing.
+
+You can embed yours shared photo album from Google Photos with the code that generates a preview of your entire album with the ability to view photos easily.
+
+1) Get album public link for sharing
+In Google Photos application, you must share selected album and get link of it. Choose album – click on menu icon or open album and click on share button and select “get link”. Link look like as https://photos.app.goo.gl/somehash. Copy this link into clipboard.
+
+2) Create code to embed album
+All you need is a link from previous step. Insert to field and press “Create embed code“.
+
+I created tool to basic manage of created code. You can setup dimmensions and some options about component. When you finish, copy result HTML code into clipboard. This code is a final stand alone HTML code – no proxy, no iframes. The only one external component is a “Player” decorator.
+
+Insert link to sharing of your Google Photos album.
+
+https://photos.app.goo.gl/CSV7NDstShTUwUZq5
+https://...
+Enter a valid URL copied from Google Photos and press the button to open the tool for setting up and creating code that you can embed on websites.
+
+3) Paste code to your website
+Complete code, paste to your site. That’s all.
+If you need process some change, such as add new photos, you must create new code of album. I will try to solve this problem in some of the following versions.
+
+Good to known
+Result code contain all link to images of shared album. No files copying. The code decorate, by external Javascript component, after page is loaded and create Player with album. It’s easy and fast.
+
+If you decide not to share the album, just stop sharing it in Google Photos and the photos will not be available anywhere else.
+
+
+### To capture single google photo in an ALBUM see the website:  https://www.publicalbum.org/blog/embedding-google-photos-image
+
 # Welcome to GitHub
 
 Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
