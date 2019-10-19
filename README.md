@@ -3,7 +3,6 @@
 ## To embed Google Photo objects in index.html see:
 ### To capture all google photos in an ALBUM see the website:  https://www.publicalbum.org/blog/embedding-google-photos-albums
   
-  nto a website?
 How can I do embed my shared album from Google Photos and make preview of images on my website? How can I do that simply, without having to copy pictures or complicated search to individual image links? Here I will introduce my solution, which you can also try.
 
 
